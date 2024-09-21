@@ -7,10 +7,10 @@ document.getElementById('mineralForm').addEventListener('submit', function(event
 
     // Tabela fictícia de minerais
     const minerais = [
-        { nome: 'Minério1', brilho: 'não metálico', dureza: '7-10', cor: 'branco' },
-        { nome: 'Minério2', brilho: 'não metálico', dureza: '7-10', cor: 'branco' },
-        { nome: 'Minério3', brilho: 'não metálico', dureza: '7-10', cor: 'branco' },
-        { nome: 'Minério4', brilho: 'não metálico', dureza: '7-10', cor: 'branco' },
+        { nome: 'Minério1', brilho: 'metálico', dureza: '1-2', cor: 'branco' },
+        { nome: 'Minério2', brilho: 'metálico', dureza: '1-2', cor: 'branco' },
+        { nome: 'Minério3', brilho: 'metálico', dureza: '1-2', cor: 'branco' },
+        { nome: 'Minério4', brilho: 'metálico', dureza: '1-2', cor: 'branco' },
         { nome: 'Pirita', brilho: 'metálico', dureza: '7-10', cor: 'amarelo' },
         { nome: 'Talco', brilho: 'não metálico', dureza: '1-2', cor: 'branco' },
         { nome: 'Magnetita', brilho: 'metálico', dureza: '5-6', cor: 'preto' },
