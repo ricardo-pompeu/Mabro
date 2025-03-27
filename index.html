@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabInfra - UFPA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../Src/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Src/favicon.ico" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+
+
+</head>
+
+
+
+<body>
+
+    <ul class="navigator">
+
+        <li class="nav1">Mabro®</li>
+
+        <li class="nav2">
+            <a class="icons-bar"><i data-lucide="heart"></i></a>
+            <a class="icons-bar"><i data-lucide="shopping-bag"></i></a>
+            <a id="openSidebar"><i data-lucide="menu"></i></a>
+        </li>
+        
+
+
+    </ul>
+
+    <section class="inicio">
+        <div class="bg-img1"> </div>
+        <div class="bg-img2"> </div>
+        <h1>@USEMABRO</h1>
+        <h2>Estilo, Conforto e Muita Resenha</h2>
+
+
+        <div class="content-grid-button">
+            <div class="grid-button">
+
+                <a class="button"> Lançamentos </a>
+
+                <a class="button"> Saiba mais </a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="inicio">
+
+        <div class="carrossel-container">
+            <div class="carrossel">
+                <div class="slide">
+                    <img src="5.jpeg" alt="Imagem 1">
+                </div>
+                <div class="slide">
+                    <img src="6.jpeg" alt="Imagem 2">
+                </div>
+                <div class="slide">
+                    <img src="7.jpeg" alt="Imagem 3">
+                </div>
+            </div>
+            
+            <button class="carrossel-btn prev-btn">&lt;</button>
+            <button class="carrossel-btn next-btn">&gt;</button>
+            
+            <div class="dots-container">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="inicio">
+
+        <div class="carrossel-container">
+
+            <img src="1.gif">
+
+
+        </div>
+
+    </section>
+
+    <div class="grid-rodape">
+
+        <a >Lançamentos </a>
+        <a onclick="window.open('')" > Ofertas </a>
+        <a onclick="window.open('')" > Privacidade </a>
+        <a> Sobre </a>
+
+        <div class="grid-social">
+            <li> <a onclick="window.open('')" > <i class="ph ph-instagram-logo"></i>  </a> Instagram </li>
+            <li> <a onclick="window.open('')" > <i class="ph ph-whatsapp-logo"></i>  </a> Whatsapp </li>
+            <li> <a onclick="window.open('')" > <i class="ph ph-globe"></i>  </a> Site </li>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div id="overlay"></div>
+    <div id="sidebar">
+        <ul class="navigator-sidebar">
+            <li id="textSidebar">Menu</li>
+            <li id="closeSidebar"><i data-lucide="chevron-left"></i></li>
+        </ul>
+
+        <ul class="sidebar-icons">
+            <li> <a id="toggle-theme" ><i data-lucide="tags"></i> Lançamentos </a> </li>
+            <li> <a onclick="window.open('')" ><i data-lucide="flame"></i> Ofertas </a> </li>
+            <li> <a onclick="window.open('')" ><i data-lucide="shield-check"></i> Privacidade </a> </li>
+            <li> <a><i data-lucide="user"></i> Sobre </a> </li>
+
+        
+
+
+
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>
+

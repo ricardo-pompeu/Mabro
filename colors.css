@@ -1,0 +1,301 @@
+:root {
+    /* Light Mode */
+
+    /*
+    hover = #00000010
+    active = #00000020
+    */
+    --background-light: #FFFFFF;
+    --surface-light: #EBEBEB;
+    --text-primary-light: #000000;
+    --text-secondary-light: #000000;
+    
+    --hover-sf-light: #dcdcdc;
+    --active-sf-light: #cecece;
+    
+    --button-light: #E6E6E6;
+    --button-hover-light: #d8d8d8;
+    --button-active-light: #c9c9c9;
+
+    --card-box-light: #E6E6E6;
+    
+
+    /* Dark Mode */
+    --background-dark: #1E1E1E;
+    --surface-dark: #303030;
+    --text-primary-dark: #FFFFFF;
+    --text-secondary-dark: #C1C1C1;
+
+    --hover-sf-dark: #3d3d3d;
+    --active-sf-dark: #4a4a4a;
+    
+    --button-dark: #3A3A3A;
+    --button-hover-dark: #464646;
+    --button-active-dark: #535353;
+
+    --card-box-dark: #3A3A3A;
+
+/* Cores Gerais */
+    --color-blue-primary: #3584E4;
+    --color-blue-hover: #4990E7;
+    --color-blue-active: #2A6AB6;
+    --color-blue-find: #5A82B5;
+}
+
+/* Light Mode */
+.light-mode {
+    background: var(--background-light);
+    color: var(--textcolor-light);
+}
+
+.light-mode .navigator,
+.light-mode #sidebar,
+.light-mode .navigator-sidebar {
+    background-color: var(--surface-light);
+}
+
+.light-mode a.button {
+    background-color: #000000;
+    color: white;
+}
+
+.light-mode a.button:hover {
+    background: var(--button-hover-light);
+}
+
+.light-mode a.button:active {
+    background: var(--button-active-light);
+}
+
+.light-mode .sidebar-icons li {
+    color: var(--text-primary-light);
+}
+
+
+.light-mode .sidebar-icons li a:hover,
+.light-mode #sidebar #closeSidebar:hover,
+.light-mode #openSidebar:hover,
+.light-mode .icons-bar:hover {
+    background: var(--hover-sf-light);
+}
+
+.light-mode .sidebar-icons li a:active,
+.light-mode #sidebar #closeSidebar:active,
+.light-mode #openSidebar:active,
+.light-mode .icons-bar:active {
+    background: var(--active-sf-light);
+}
+
+.light-mode .card-box {
+    background: var(--card-box-light);
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: var(--background-dark);
+    color: var(--text-primary-dark);
+}
+
+.dark-mode .navigator,
+.dark-mode #sidebar,
+.dark-mode .navigator-sidebar {
+    background-color: var(--surface-dark);
+}
+
+.dark-mode a.button {
+    background-color: var(--button-dark);
+    color: var(--text-primary-dark);
+}
+
+.dark-mode a.button:hover {
+    background: var(--button-hover-dark);
+}
+
+.dark-mode a.button:active {
+    background: var(--button-active-dark);
+}
+
+.dark-mode .sidebar-icons li a:hover,
+.dark-mode #sidebar #closeSidebar:hover,
+.dark-mode #openSidebar:hover {
+    background: var(--hover-sf-dark);
+}
+
+.dark-mode .sidebar-icons li a:active,
+.dark-mode #sidebar #closeSidebar:active,
+.dark-mode #openSidebar:active {
+    background: var(--active-sf-dark);
+}
+
+.dark-mode .card-box {
+    background: var(--card-box-dark);
+}
+
+/* Botão de Ação */
+a.button-sugest {
+    background-color: var(--color-blue-primary);
+    color: #ffffff;
+}
+
+a.button-sugest:hover {
+    background: var(--color-blue-hover);
+}
+
+a.button-sugest:active {
+    background: var(--color-blue-active);
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.inicio p a {
+    color: var(--color-blue-primary);
+    
+}
+
+/* {
+    color: var(--color-blue-primary);
+    
+}
+
+*/
+
+
+/*prática*/
+a.button-sim {
+    color: #72dfa3;
+    background-color: #72dfa330;
+}
+
+a.button-sim:hover {
+    background-color: #72dfa340;
+}
+
+a.button-sim:active {
+    background-color: #72dfa370;
+}
+
+
+a.button-nao{
+    color: #e96167;
+    background-color: #e9616730;
+}
+
+a.button-nao:hover{
+    background-color: #e9616740;
+}
+
+a.button-nao:active{
+    background-color: #e9616770;
+}
+
+
+
+/*colous*/
+
+/*
+button = #ffffff + color 3; #XXXXXX B0 (opacity)
+
+blue = #73aaec
+yellow = #f9e06e
+red = #e96167
+green = #72dfa3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tabelas */
+
+
+.light-mode tr:nth-child(odd) {
+    background-color: var(--button-hover-light);
+}
+
+.light-mode tr:nth-child(even) {
+    background-color: var(--button-light);
+}
+
+th {
+    background-color: #2A6AB690;
+    color: white;
+
+}
+
+.light-mode th, .light-mode td {
+    border: 1px solid #00000070;
+}
+
+
+
+
+
+.dark-mode tr:nth-child(odd) {
+    background-color: var(--button-hover-dark);
+}
+
+.dark-mode tr:nth-child(even) {
+    background-color: var(--button-dark);
+}
+
+.dark-mode th {
+    background-color: #2A6AB690;
+}
+
+.dark-mode th, .dark-mode td {
+    border: 1px solid #ffffff70;
+}
+
+
+
+
+/*----------------------------------------------*/
+
+
+#leftimg:hover, #rightimg:hover{
+    background-color: #00000040;
+}
+
+#leftimg:active, #rightimg:active {
+    background-color: #00000070;
+
+
+}
+
+
+#leftimg, #rightimg {
+    color: #FFFFFF !important;
+
+
+}
+
+
+
+
+.light-mode .indicators span {
+    background-color: #2f2f2f40;
+}
+
+.light-mode .indicators span.active {
+    background-color: #2F2F2F;
+}
+
+.dark-mode .indicators span {
+    background-color: #ffffff80;
+}
+
+.dark-mode .indicators span.active {
+    background-color: #ffffff;
+}
